@@ -41,8 +41,8 @@ int CountElementsLess3(string[] array)
     int count = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        string index1 = array[i];
-        if (index1.Length < 4)
+        string index = array[i];
+        if (index.Length < 4)
         {
             count++;
         }
